@@ -1,0 +1,5 @@
+x=input("Enter comma seperated values: ")
+l=x.split(",")
+y=input("Enter value to be counted: ")
+c=l.count(y)
+print(c)

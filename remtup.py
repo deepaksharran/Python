@@ -1,0 +1,6 @@
+x=input("Enter comma seperated values: ").split(",")
+tup=tuple(x)
+l=list(tup)
+y=str(input("Enter the value to be removed: "))
+l.remove(y)
+print(l)
